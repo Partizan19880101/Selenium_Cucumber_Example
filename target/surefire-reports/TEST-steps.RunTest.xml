@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="steps.RunTest" time="66.788" tests="3" errors="3" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="steps.RunTest" time="38.947" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Users\Pavel\.jdks\openjdk-14\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Pavel\AppData\Local\Temp\surefire2511572156838852686 2020-11-16T23-08-25_297-jvmRun1 surefire1864027891331880337tmp surefire_07112580798720442338tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\Pavel\AppData\Local\Temp\surefire2497882122765595031 2020-11-19T22-28-22_841-jvmRun1 surefire3086095999711928084tmp surefire_01468512953608482498tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Pavel\IdeaProjects\Selenium-Cucumber\target\test-classes;C:\Users\Pavel\IdeaProjects\Selenium-Cucumber\target\classes;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Pavel\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Pavel\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Pavel\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Pavel\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Pavel\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Pavel\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Pavel\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Pavel\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Pavel\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Pavel\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Pavel\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Pavel\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\Pavel\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Pavel\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Pavel\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Pavel\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\Pavel\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\Pavel\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\Pavel\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Pavel\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Pavel\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\Pavel\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Pavel\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\Pavel\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\Pavel\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-junit\5.3.0\cucumber-junit-5.3.0.jar;C:\Users\Pavel\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-core\5.3.0\cucumber-core-5.3.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-gherkin\5.3.0\cucumber-gherkin-5.3.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-gherkin-vintage\5.3.0\cucumber-gherkin-vintage-5.3.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\tag-expressions\2.0.4\tag-expressions-2.0.4.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-expressions\8.3.1\cucumber-expressions-8.3.1.jar;C:\Users\Pavel\.m2\repository\io\cucumber\datatable\3.3.0\datatable-3.3.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-plugin\5.3.0\cucumber-plugin-5.3.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\docstring\5.3.0\docstring-5.3.0.jar;C:\Users\Pavel\.m2\repository\io\cucumber\cucumber-java\5.3.0\cucumber-java-5.3.0.jar;C:\Users\Pavel\.m2\repository\ch\qos\logback\logback-classic\1.1.1\logback-classic-1.1.1.jar;C:\Users\Pavel\.m2\repository\ch\qos\logback\logback-core\1.1.1\logback-core-1.1.1.jar;C:\Users\Pavel\.m2\repository\io\qameta\allure\allure-junit4\2.13.1\allure-junit4-2.13.1.jar;C:\Users\Pavel\.m2\repository\io\qameta\allure\allure-java-commons\2.13.1\allure-java-commons-2.13.1.jar;C:\Users\Pavel\.m2\repository\io\qameta\allure\allure-model\2.13.1\allure-model-2.13.1.jar;C:\Users\Pavel\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\Pavel\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Pavel\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\Pavel\.m2\repository\org\apache\tika\tika-core\1.20\tika-core-1.20.jar;C:\Users\Pavel\.m2\repository\org\jooq\joor-java-8\0.9.10\joor-java-8-0.9.10.jar;"/>
     <property name="allure.results.directory" value="C:\Users\Pavel\IdeaProjects\Selenium-Cucumber\target/allure-results"/>
@@ -55,136 +55,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="I want to login with correct credentials" classname="I want to test task six" time="24">
-    <error message="Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()=&apos;Zadanie 6&apos;] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-H92K9N4&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: def754bc38392a2bc3f724332a5a9ea3" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()='Zadanie 6'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: def754bc38392a2bc3f724332a5a9ea3
-</error>
-    <system-out><![CDATA[
-Scenario: I want to login with correct credentials &amp#27;[90m# src/test/resources/test_six.reature.feature:3&amp#27;[0m
-2020-11-16 23:08:30,530 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-11-16 23:08:30,593 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pavel\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to main page&amp#27;[0m                          &amp#27;[90m# steps.StepsDefinition.iGoToMainPage()&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI select &amp#27;[0m&amp#27;[31m&amp#27;[1m"6"&amp#27;[0m&amp#27;[31m task&amp#27;[0m                           &amp#27;[90m# steps.StepsDefinition.iSelectTask(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()='Zadanie 6'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56605}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: def754bc38392a2bc3f724332a5a9ea3
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at page.BasePage.waitVisibility(BasePage.java:22)
-	at page.BasePage.click(BasePage.java:26)
-	at page.Main.chooseTask(Main.java:17)
-	at steps.StepsDefinition.iSelectTask(StepsDefinition.java:30)
-	at ?.I select "6" task(file:///C:/Users/Pavel/IdeaProjects/Selenium-Cucumber/src/test/resources/test_six.reature.feature:5)
-&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI login as &amp#27;[0m&amp#27;[36m&amp#27;[1m"tester"&amp#27;[0m&amp#27;[36m with password &amp#27;[0m&amp#27;[36m&amp#27;[1m"123-xyz"&amp#27;[0m  &amp#27;[90m# steps.StepsDefinition.iLoginAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should &amp#27;[0m&amp#27;[36m&amp#27;[1msee&amp#27;[0m&amp#27;[36m the link download file&amp#27;[0m         &amp#27;[90m# steps.StepsDefinition.iShouldSeeTheLinkDownloadFile(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[[DelegatingClassLoader@4d465b11] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-[DelegatingClassLoader@4d465b11] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-Nov 16, 2020 11:08:29 PM io.cucumber.junit.Cucumber <init>
-WARNING: By default Cucumber is running in --non-strict mode.
-This default will change to --strict and --non-strict will be removed.
-You can use --strict or @CucumberOptions(strict = true) to suppress this warning
-[DelegatingClassLoader@77f905e3] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-[DelegatingClassLoader@77f905e3] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 20866
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Nov 16, 2020 11:08:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="I want to login with wrong credentials" classname="I want to test task six" time="20.807">
-    <error message="Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()=&apos;Zadanie 6&apos;] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-H92K9N4&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 14d730a24cfb8dc3ea8e600b913ec52a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()='Zadanie 6'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 14d730a24cfb8dc3ea8e600b913ec52a
-</error>
-    <system-out><![CDATA[
-Scenario Outline: I want to login with wrong credentials &amp#27;[90m# src/test/resources/test_six.reature.feature:17&amp#27;[0m
-2020-11-16 23:08:53,713 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-11-16 23:08:53,722 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pavel\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to main page&amp#27;[0m                                &amp#27;[90m# steps.StepsDefinition.iGoToMainPage()&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI select &amp#27;[0m&amp#27;[31m&amp#27;[1m"6"&amp#27;[0m&amp#27;[31m task&amp#27;[0m                                 &amp#27;[90m# steps.StepsDefinition.iSelectTask(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()='Zadanie 6'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52639}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 14d730a24cfb8dc3ea8e600b913ec52a
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at page.BasePage.waitVisibility(BasePage.java:22)
-	at page.BasePage.click(BasePage.java:26)
-	at page.Main.chooseTask(Main.java:17)
-	at steps.StepsDefinition.iSelectTask(StepsDefinition.java:30)
-	at ?.I select "6" task(file:///C:/Users/Pavel/IdeaProjects/Selenium-Cucumber/src/test/resources/test_six.reature.feature:11)
-&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI login as &amp#27;[0m&amp#27;[36m&amp#27;[1m"bugofnet"&amp#27;[0m&amp#27;[36m with password &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m             &amp#27;[90m# steps.StepsDefinition.iLoginAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should &amp#27;[0m&amp#27;[36m&amp#27;[1mnot see&amp#27;[0m&amp#27;[36m the link download file&amp#27;[0m           &amp#27;[90m# steps.StepsDefinition.iShouldSeeTheLinkDownloadFile(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 11838
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Nov 16, 2020 11:08:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="I want to login with wrong credentials" classname="I want to test task six" time="20.544">
-    <error message="Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()=&apos;Zadanie 6&apos;] (tried for 15 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-H92K9N4&apos;, ip: &apos;192.168.100.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 3faec7db0fa42ae8f0fe51bbb86ab41b" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()='Zadanie 6'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3faec7db0fa42ae8f0fe51bbb86ab41b
-</error>
-    <system-out><![CDATA[
-Scenario Outline: I want to login with wrong credentials &amp#27;[90m# src/test/resources/test_six.reature.feature:18&amp#27;[0m
-2020-11-16 23:09:14,544 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-11-16 23:09:14,558 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Pavel\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to main page&amp#27;[0m                                &amp#27;[90m# steps.StepsDefinition.iGoToMainPage()&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI select &amp#27;[0m&amp#27;[31m&amp#27;[1m"6"&amp#27;[0m&amp#27;[31m task&amp#27;[0m                                 &amp#27;[90m# steps.StepsDefinition.iSelectTask(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.xpath: //h2[text()='Zadanie 6'] (tried for 15 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pavel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52711}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3faec7db0fa42ae8f0fe51bbb86ab41b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at page.BasePage.waitVisibility(BasePage.java:22)
-	at page.BasePage.click(BasePage.java:26)
-	at page.Main.chooseTask(Main.java:17)
-	at steps.StepsDefinition.iSelectTask(StepsDefinition.java:30)
-	at ?.I select "6" task(file:///C:/Users/Pavel/IdeaProjects/Selenium-Cucumber/src/test/resources/test_six.reature.feature:11)
-&amp#27;[0m
-  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI login as &amp#27;[0m&amp#27;[36m&amp#27;[1m""&amp#27;[0m&amp#27;[36m with password &amp#27;[0m&amp#27;[36m&amp#27;[1m"123456"&amp#27;[0m               &amp#27;[90m# steps.StepsDefinition.iLoginAsWithPassword(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should &amp#27;[0m&amp#27;[36m&amp#27;[1mnot see&amp#27;[0m&amp#27;[36m the link download file&amp#27;[0m           &amp#27;[90m# steps.StepsDefinition.iShouldSeeTheLinkDownloadFile(java.lang.String)&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[[DelegatingClassLoader@2ec5cc14] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-[DelegatingClassLoader@2ec5cc14] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-[DelegatingClassLoader@2c0dca15] error at io\qameta\allure\aspects\StepsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-[DelegatingClassLoader@2c0dca15] error at io\qameta\allure\aspects\AttachmentsAspects.java::0 the @annotation pointcut expression is only supported at Java 5 compliance level or above
-Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 11053
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Nov 16, 2020 11:09:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="I want to login with correct credentials" classname="I want to test task six" time="11.509"/>
+  <testcase name="I want to login with wrong credentials" classname="I want to test task six" time="13.112"/>
+  <testcase name="I want to login with wrong credentials" classname="I want to test task six" time="12.484"/>
 </testsuite>
