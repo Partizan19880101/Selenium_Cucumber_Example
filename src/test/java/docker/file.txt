@@ -1,1 +1,3 @@
 
+How to start tests:
+1. docker-compose up
