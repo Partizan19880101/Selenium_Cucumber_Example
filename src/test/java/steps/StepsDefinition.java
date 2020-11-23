@@ -8,9 +8,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import test.TestBase;
 
+import java.net.MalformedURLException;
+
 public class StepsDefinition extends TestBase {
     @Before
-    public void initialization() {
+    public void initialization() throws MalformedURLException {
         start();
     }
 
