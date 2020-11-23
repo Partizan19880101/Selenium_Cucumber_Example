@@ -1,4 +1,37 @@
 -------------------------------------------------------------------------------
 Test set: steps.RunTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.947 s - in steps.RunTest
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 4.619 s <<< FAILURE! - in steps.RunTest
+I want to login with correct credentials(I want to test task six)  Time elapsed: 2.559 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+create container: Error response from daemon: No such image: selenoid/vnc:chrome_75.0 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 390 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: RemoteWebDriver
+
+I want to login with correct credentials(I want to test task six)  Time elapsed: 2.56 s  <<< ERROR!
+java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.
+
+I want to login with wrong credentials(I want to test task six)  Time elapsed: 0.334 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+create container: Error response from daemon: No such image: selenoid/vnc:chrome_75.0 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 113 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: RemoteWebDriver
+
+I want to login with wrong credentials(I want to test task six)  Time elapsed: 0.334 s  <<< ERROR!
+java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.
+
+I want to login with wrong credentials(I want to test task six)  Time elapsed: 0.315 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+create container: Error response from daemon: No such image: selenoid/vnc:chrome_75.0 (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 40 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-H92K9N4', ip: '192.168.100.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14'
+Driver info: driver.version: RemoteWebDriver
+
+I want to login with wrong credentials(I want to test task six)  Time elapsed: 0.315 s  <<< ERROR!
+java.lang.IllegalStateException: No webdriver is bound to current thread: 1. You need to call open(url) first.
+

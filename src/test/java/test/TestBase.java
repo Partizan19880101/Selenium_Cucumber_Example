@@ -28,6 +28,7 @@ public class TestBase {
         WebDriverManager.chromedriver().setup();
         final String url = "http://localhost:4444/wd/hub";
         WebDriver driver = new RemoteWebDriver(new URL(url), DesiredCapabilities.chrome());
+
         //driver = new ChromeDriver();
         //options.setHandless(true);
         driver.manage().window().maximize();
@@ -36,6 +37,7 @@ public class TestBase {
         main = PageFactory.initElements(driver, Main.class);
         taskOne = PageFactory.initElements(driver, TaskOne.class);
         taskSix = PageFactory.initElements(driver, TaskSix.class);
+        WebDriverRunner.setWebDriver(driver);
     }
 
     public void finish() {
